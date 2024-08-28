@@ -41,8 +41,8 @@ function App() {
       <div className="bg-black pb-20">
         <Header />
         <Banner />
-        <MovieList title={"Phim Hot"} data={movie.slice(0, 5)} />
-        <MovieList title={"Phim Đề Cử"} data={movieRate.slice(0, 5)} />
+        <MovieList title={"Phim Hot"} data={movie} />
+        <MovieList title={"Phim Đề Cử"} data={movieRate} />
       </div>
     </>
   );
